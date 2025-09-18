@@ -1,13 +1,4 @@
-#include <iostream>
-#include <string>
-#include <cstdlib>
-#include <chrono>
-#include <thread>
 
-//Should I include all .h file used in this project? or only include the ones required to compile
-#include "global.h"
-#include "matrix.h"
-#include "life.h"
 #include "simulation.h"
 #include "snake.h"
 #include "box.h"
