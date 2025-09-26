@@ -74,7 +74,7 @@ void Simulation::simulate() {
 }
 
 void Simulation::report() {
-	std::string msg = "Hello World!"; // Replace Hello World with your answer.
+	std::string msg = "never goin to give you up"; // Replace Hello World with your answer.
 	std::cout << msg << std::endl;
 }
 int two(int u) {
@@ -89,7 +89,7 @@ int three(int x) {
 
 void Simulation::one(int t) {
 	int i = 0;
-	int k = watchme;
+	int k = watchme;	//the code is 52871 and outputted "never goin to give you up"
 	while (++i < t) {
 		if (i == 0)
 			k = 2;
